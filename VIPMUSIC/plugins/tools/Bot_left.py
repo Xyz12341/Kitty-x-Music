@@ -9,11 +9,11 @@ from VIPMUSIC.utils.database import get_assistant
 from VIPMUSIC.utils.database import delete_served_chat
 
 photo = [
-    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
-    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
-    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
-    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
-    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
 ]
 
 @app.on_message(filters.left_chat_member)
