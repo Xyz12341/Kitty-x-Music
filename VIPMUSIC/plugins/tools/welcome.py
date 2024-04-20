@@ -43,11 +43,11 @@ from logging import getLogger
 
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
+    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
+    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
+    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
+    "https://telegra.ph/file/c160736521d3fbe2246d9.jpg",
 ]
 # --------------------------------------------------------------------------------- #
 
@@ -217,12 +217,12 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 member.chat.id,
                 photo=welcomeimg,
                 caption=f"""
-**❅────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────❅**
+**❅🏘Wɘɭƈøɱɘ íղ ղҽω ցɾօuթ 💫✨❅**
 
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
 **➻ ɴᴀᴍᴇ »** {user.mention}
 **➻ ɪᴅ »** `{user.id}`
-**➻ ᴜ_ɴᴀᴍᴇ »** @{user.username}
+**➻ 𝐔ᴇʀɴᴀᴍᴇ »** @{user.username}
 **➻ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs »** {count}
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
 
