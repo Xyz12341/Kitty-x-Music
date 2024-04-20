@@ -8,31 +8,6 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else False
 
-START_IMG_URLS = "https://graph.org/file/0ba62eab9db28f929a196.jpg"
-
-MESSAGES = f"""**ㅤㅤㅤ⚠️⚠️⚠️⚠️⚠️📡
-
-🔣 सबसे ज्यादा पैसा देने वाला Platform 
-🔣 पूरी दुनिया को हिला के रख दिया 
-⭐️MISS मत करना 
-
-🔣Game  को INVITE करो और 🔔 10,000₹ से 50,000₹ रोज कमाओ 🔥
-
-☄️Register Link🔗:- https://91club.game/#/register?invitationCode=65847105926
-
-24ʜʀ ᴘʀᴇᴅɪᴄᴛɪᴏɴ:- https://t.me/VIP_CREATORS/1145
-
-🌟Do register & get bonus from :-  @RajaGameClubAgents**"""
-
-
-BUTTONS = InlineKeyboardMarkup(
-    [
-        [
-            InlineKeyboardButton("๏ Click & Get ₹100 ๏", url=f"https://91club.game/#/register?invitationCode=65847105926")
-        ]
-    ]
-)
-
 MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs + ᴄʜᴀɴɴᴇʟs ᴠᴄ. 💌
 
 🎧 ᴘʟᴀʏ + ᴠᴘʟᴀʏ + ᴄᴘʟᴀʏ 🎧
@@ -46,7 +21,7 @@ MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏ
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏", url=f"https://t.me/TG_VC_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏", url=f"https://t.me/KittyxMusic_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
