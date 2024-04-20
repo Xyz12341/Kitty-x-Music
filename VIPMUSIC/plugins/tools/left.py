@@ -31,11 +31,11 @@ import random
 import asyncio
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
+    "https://telegra.ph/file/a1e74f1efb414810c21ef.jpg",
 ]
 
 bg_path = "VIPMUSIC/assets/userinfo.png"
